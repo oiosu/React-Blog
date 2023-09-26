@@ -70,3 +70,24 @@ let [a, b] = useState('남자 가디건 추천')
 > * `b` : state 변경 도와주는 함수 
 > * 작명은 직관적으로 작성하기 
 
+---
+
+##### ◼ Destructuring 문법 
+
+```javascript
+let num = [1, 2];
+let a = num[0];
+let c = num[1];
+```
+
+```javascript
+let num = [1, 2];
+let [a, c] =[1, 2];
+```
+
+> array 안에 있던 자료들을 각각 변수로 빼주는 문법이다. 
+
+---
+
+
+
