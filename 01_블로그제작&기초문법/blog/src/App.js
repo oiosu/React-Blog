@@ -10,6 +10,10 @@ function App() {
       <div className='black-nav'>
         <h4>Su kyung BLOG</h4>
       </div>
+      <div className='list'>
+        <h4>Title</h4>
+        <p>9월 26일 발행</p>
+      </div>
       <h4>{post}</h4>
     </div>
   );
