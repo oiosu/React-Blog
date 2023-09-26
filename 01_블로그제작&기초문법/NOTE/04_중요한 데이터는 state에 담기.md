@@ -110,5 +110,37 @@ let [a, c] =[1, 2];
 
 
 
+◼ useState 숙제 
+
+```react
+function App(){
+ 
+  let [글제목, b] = useState( ['남자코트 추천', '강남 우동맛집', '파이썬 독학'] );
+
+  return (
+    <div className="App">
+      <div className="black-nav">
+        <div>개발 blog</div>
+      </div>
+      <div className="list">
+        <h4>{ 글제목[0] }</h4>
+        <p>2월 17일 발행</p>
+      </div>
+      <div className="list">
+        <h4>{ 글제목[1] }</h4>
+        <p>2월 17일 발행</p>
+      </div>
+      <div className="list">
+        <h4>{ 글제목[2] }</h4>
+        <p>2월 17일 발행</p>
+      </div>
+    </div>
+  )
+}
+```
+
+> * 한 곳에 여러개의 문자를 집어넣고 싶으면 [ ] 대괄호안에다가 문자들 끼워넣고 콤마로 구분
+> *  array자료형
+
 
 
