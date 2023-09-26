@@ -21,13 +21,15 @@ div {
 }
 ```
 
-> ![image](https://github.com/oiosu/React-PJT/assets/99783474/412b0e8f-56da-4f85-9a66-05dd64049c12)
+> ![image](https://github.com/oiosu/React-PJT/assets/99783474/acb672c2-03d5-4f36-a22f-5b5e7fa763ce)
+
 
 ##### 
 
 ##### 2.  `return()` 안에는 병렬로 태그 2개 이상 기입 금지 
 
-![image](https://github.com/oiosu/React-PJT/assets/99783474/c90d35c0-5568-4faf-833c-7385ce227378)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/81851cbb-93bd-4422-b879-7d9649b3bb1e)
+
 
 
 ```react
