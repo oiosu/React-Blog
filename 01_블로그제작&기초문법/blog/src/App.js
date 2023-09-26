@@ -1,9 +1,11 @@
+/* eslint-disable*/
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
 function App() {
-  let [Title1, blogTitle] = useState('Title_1')
+  let [Title, b] = useState(['Title1', 'Title2', 'Title3']);
+  let [good, goodChange] = useState(0);
 
   return (
     <div className="App">
@@ -11,15 +13,17 @@ function App() {
         <h4>ReactBlog</h4>
       </div>
       <div className='list'>
-        <h4>{Title1}</h4>
+        <h4>{Title[0]}
+          <span onClick={() => { goodChange(good + 1) }}>👍</span> {good}
+        </h4>
         <p>9월 26일 발행</p>
       </div>
       <div className='list'>
-        <h4>.</h4>
+        <h4>{Title[1]}</h4>
         <p>9월 26일 발행</p>
       </div>
       <div className='list'>
-        <h4>.</h4>
+        <h4>{Title[2]}</h4>
         <p>9월 26일 발행</p>
       </div>
     </div>
