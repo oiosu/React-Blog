@@ -21,13 +21,14 @@ div {
 }
 ```
 
-> ![image-20230926153701920](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926153701920.png)
+> ![image](https://github.com/oiosu/React-PJT/assets/99783474/412b0e8f-56da-4f85-9a66-05dd64049c12)
 
 ##### 
 
 ##### 2.  `return()` 안에는 병렬로 태그 2개 이상 기입 금지 
 
-![image-20230926153918042](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926153918042.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/c90d35c0-5568-4faf-833c-7385ce227378)
+
 
 ```react
   return (
