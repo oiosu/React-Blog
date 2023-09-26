@@ -81,7 +81,8 @@ function App() {
 > }
 > ```
 >
-> ![image-20230926152220788](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926152220788.png)
+> ![image](https://github.com/oiosu/React-PJT/assets/99783474/d3cd0a50-8095-4c86-b252-debe10102f2e)
+
 
 ##### JSX 문법 (3)  style 넣을 땐 style={{ 스타일명 : '값' }}
 
