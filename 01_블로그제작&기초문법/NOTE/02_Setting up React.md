@@ -16,7 +16,8 @@ npx create-react-app blog
 
 ##### 2. 설치 완료 
 
-![image-20230926140846417](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926140846417.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/1c6a40c9-848e-4cd3-bc20-43912251893a)
+
 
 ##### 3. 미리 보기 띄우기 
 
@@ -26,7 +27,8 @@ npm start
 
 > 명령어가 다를 경우 `package.json` 파일에서 "start" 부분 변경하기 
 >
-> ![image-20230926142009064](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926142009064.png)
+> ![image](https://github.com/oiosu/React-PJT/assets/99783474/4c7e3d4e-4f27-4253-a048-34bb81f3b683)
+
 >
 > ```javascript
 >   },
@@ -44,9 +46,11 @@ npm start
 
 > react 랜더 시 발생하는 오류 
 
-![image-20230926143231644](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926143231644.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/0579d117-3737-49a7-b03e-40c7465ea0d0)
 
-![image-20230926143425647](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926143425647.png)
+
+![image](https://github.com/oiosu/React-PJT/assets/99783474/94905594-d642-4524-a2d8-896ff66685f0)
+
 
 > [eslint] Plugin "react" was conflicted between "package.json » eslint-config-react-app 
 
@@ -62,9 +66,11 @@ npm start
 
 ##### 4. Compiled successfully!
 
-![image-20230926143801160](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926143801160.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/e31a7e1f-b4d5-4f63-aa6f-d14d61d98a10)
 
-![image-20230926143844995](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926143844995.png)
+
+![image](https://github.com/oiosu/React-PJT/assets/99783474/332f5afd-b06a-4590-9ed5-9f176c39414e)
+
 
 
 
@@ -80,4 +86,4 @@ npm start
 
 🤔 JS 코드임에도 불구하고 HTML 코드를 작성해도 되는 이유
 
-> ![image-20230926144713065](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230926144713065.png)
+> ![image](https://github.com/oiosu/React-PJT/assets/99783474/9b21e302-f868-401b-bc91-0b7469031153)
