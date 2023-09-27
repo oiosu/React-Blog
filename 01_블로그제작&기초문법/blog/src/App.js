@@ -16,6 +16,7 @@ function App() {
       <button onClick={() => {
         let copy = [...Title];
         copy[0] = '여자코트 추천';
+        copy.sort();
         b(copy);
       }}>글 제목 수정</button>
 

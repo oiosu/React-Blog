@@ -77,4 +77,16 @@ let arr = [1, 2, 3];
 
 ---
 
-##### 
+##### ✔  버튼 누르면 글 제목 가나다순 정렬 기능 만들기 
+
+* Hint : html을 어떻게 정렬할까 고민안해도 되고 글제목 state를 가나다순으로 정렬 (왜냐면 state 변경하면 관련된 html은 자동으로 재렌더링 되니까요 )
+
+```react
+<button onClick={() => {
+    let copy = [...Title];
+    copy[0] = '여자코트 추천';
+    copy.sort();
+    b(copy);
+}}>글 제목 수정</button>
+```
+
