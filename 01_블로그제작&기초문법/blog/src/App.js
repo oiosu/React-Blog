@@ -34,7 +34,7 @@ function App() {
                 <span onClick={() => { goodChange(good + 1) }}>
                   👍
                 </span> {good} </h4>
-              <p>9월 27일 발생</p>
+              <p>9월 27일 발행</p>
             </div>
           )
         })
@@ -42,7 +42,9 @@ function App() {
 
 
       {
-        modal == true ? <Modal color={'blue'} Title={Title} /> : null
+        modal == true ? <Modal TitleChange={TitleChange}
+          color={'blue'}
+          Title={Title} /> : null
       }
 
     </div>
@@ -60,6 +62,11 @@ function Modal(props) {
       <h4>{props.Title[0]}</h4>
       <p>날짜</p>
       <p>상세내용</p>
+      <button onClick={() => {
+        props.TitleChange(
+          ['여자코트추천', 'Title2', 'Title3']
+        )
+      }}>글 수정</button>
     </div>
   );
 }
