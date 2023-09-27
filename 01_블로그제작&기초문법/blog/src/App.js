@@ -12,6 +12,13 @@ function App() {
       <div className='black-nav'>
         <h4>ReactBlog</h4>
       </div>
+
+      <button onClick={() => {
+        let copy = [...Title];
+        copy[0] = '여자코트 추천';
+        b(copy);
+      }}>글 제목 수정</button>
+
       <div className='list'>
         <h4>{Title[0]}
           <span onClick={() => { goodChange(good + 1) }}>👍</span> {good}
