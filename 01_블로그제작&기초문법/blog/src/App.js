@@ -34,8 +34,21 @@ function App() {
         <h4>{Title[2]}</h4>
         <p>9월 26일 발행</p>
       </div>
+
+      <Modal></Modal>
     </div>
   );
+}
+
+// function 만들 시, 다른 function 밖에 만들어주기 
+function Modal() {
+  return (
+    <div className='modal'>
+      <h4>제목</h4>
+      <p>날짜</p>
+      <p>상세내용</p>
+    </div>
+  )
 }
 
 export default App;
