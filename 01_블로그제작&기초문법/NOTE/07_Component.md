@@ -2,7 +2,8 @@
 
 #### : 많은 div들을 한 단어로 줄이고 싶으면 
 
-![image-20230927100857301](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230927100857301.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/b3691970-2ec9-4572-abe4-8be47f6934ca)
+
 
 #### ✔ 컴토넌트 만드는 법 
 
