@@ -9,9 +9,12 @@ function App() {
 
   return (
     <div className="App">
+
       <div className='black-nav'>
         <h4>ReactBlog</h4>
       </div>
+
+      <Top></Top>
 
       <button onClick={() => {
         let copy = [...Title];
@@ -47,6 +50,14 @@ function Modal() {
       <h4>제목</h4>
       <p>날짜</p>
       <p>상세내용</p>
+    </div>
+  );
+}
+
+function Top() {
+  return (
+    <div className='top'>
+      <p>React 마스터 하고 싶어요</p>
     </div>
   )
 }

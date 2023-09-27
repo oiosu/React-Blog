@@ -100,3 +100,10 @@ const Modal = () => {
 }
 ```
 
+
+
+---
+
+
+
+◼ 다른 component 만들기 
