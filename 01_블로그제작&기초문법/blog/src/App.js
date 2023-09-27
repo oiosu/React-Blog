@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
+// 부모 컴포넌트 
 function App() {
   let [Title, b] = useState(['Title1', 'Title2', 'Title3']);
   let [good, goodChange] = useState(0);
@@ -27,13 +28,12 @@ function App() {
       {
         Title.map(function (a, i) {
           return (
-            <div className='list'>
-              <h4>
+            <div className='list' key={i}>
+              <h4 onClick={() => { setModal(true) }}>
                 {Title[i]}
                 <span onClick={() => { goodChange(good + 1) }}>
                   👍
-                </span>
-              </h4>
+                </span> {good} </h4>
               <p>9월 27일 발생</p>
             </div>
           )
@@ -42,18 +42,22 @@ function App() {
 
 
       {
-        modal == true ? <Modal /> : null
+        modal == true ? <Modal color={'blue'} Title={Title} /> : null
       }
 
     </div>
   );
 }
 
+// 모든 변수는 함수 탈출 불가이다. 
+
 // function 만들 시, 다른 function 밖에 만들어주기 
-function Modal() {
+//자식 컴포넌트
+function Modal(props) {
   return (
-    <div className='modal'>
-      <h4>제목</h4>
+    <div className='modal'
+      style={{ background: props.color }}>
+      <h4>{props.Title[0]}</h4>
       <p>날짜</p>
       <p>상세내용</p>
     </div>
