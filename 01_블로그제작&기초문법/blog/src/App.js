@@ -6,6 +6,7 @@ import { useState } from 'react';
 function App() {
   let [Title, b] = useState(['Title1', 'Title2', 'Title3']);
   let [good, goodChange] = useState(0);
+  let [modal, setModal] = useState('true');
 
   return (
     <div className="App">
@@ -34,11 +35,14 @@ function App() {
         <p>9월 26일 발행</p>
       </div>
       <div className='list'>
-        <h4>{Title[2]}</h4>
+        <h4 onClick={() => { setModal(true) }}>{Title[2]}</h4>
         <p>9월 26일 발행</p>
       </div>
 
-      <Modal></Modal>
+      {
+        modal == true ? <Modal /> : null
+      }
+
     </div>
   );
 }
