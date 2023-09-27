@@ -31,7 +31,7 @@
 
 ##### (1)  state 변경함수 특징
 
-![image-20230927092256011](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230927092256011.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/f82144ce-9818-4cef-91de-95d773a5e83c)
 
 > `기존 state == 신규 state` 의 경우 변경 안해줌 
 
@@ -45,7 +45,8 @@ let arr = [1, 2, 3];
 
 > `[1, 2, 3]` 이 어딨는지 알려주는 화살표만 들어있다. 
 
-![image-20230927092745276](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230927092745276.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/8ea7033f-f569-4012-b86b-a3b70f86aca4)
+
 
 
 
@@ -54,7 +55,8 @@ let arr = [1, 2, 3];
 글제목변경(글제목);
 ```
 
-![image-20230927093055709](C:\Users\bestsu\AppData\Roaming\Typora\typora-user-images\image-20230927093055709.png)
+![image](https://github.com/oiosu/React-PJT/assets/99783474/cf4a1676-aac7-42c5-adf4-abecf0799951)
+
 
 > `남자코트` =====> `여자코트`
 >
