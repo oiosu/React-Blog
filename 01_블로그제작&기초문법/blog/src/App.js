@@ -24,20 +24,22 @@ function App() {
         b(copy);
       }}>글 제목 수정</button>
 
-      <div className='list'>
-        <h4>{Title[0]}
-          <span onClick={() => { goodChange(good + 1) }}>👍</span> {good}
-        </h4>
-        <p>9월 26일 발행</p>
-      </div>
-      <div className='list'>
-        <h4>{Title[1]}</h4>
-        <p>9월 26일 발행</p>
-      </div>
-      <div className='list'>
-        <h4 onClick={() => { setModal(true) }}>{Title[2]}</h4>
-        <p>9월 26일 발행</p>
-      </div>
+      {
+        Title.map(function (a, i) {
+          return (
+            <div className='list'>
+              <h4>
+                {Title[i]}
+                <span onClick={() => { goodChange(good + 1) }}>
+                  👍
+                </span>
+              </h4>
+              <p>9월 27일 발생</p>
+            </div>
+          )
+        })
+      }
+
 
       {
         modal == true ? <Modal /> : null
