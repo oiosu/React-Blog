@@ -78,3 +78,16 @@ function App(){
 > 변수에 있던 것을 html에 넣는 작업을 = `데이터 바인딩` 이라고 한다.
 
 
+##### (3)  html에 style속성 넣기
+
+* JSX 상에서는 style={ } 안에 { } 자료형으로 넣어야한다.
+
+```javascript
+<div style={ {color : 'blue', fontSize : '30px'} }> 글씨 </div>
+```
+
+> ` { 속성명 : '속성값' } ` 형식으로 넣기
+>
+> 하지만 font-size 처럼 대쉬기호를 사용할 수 없기때문에 대쉬기호 대신 모든 단어를 붙여 써야 한다 `fontSize`
+>
+
