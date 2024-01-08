@@ -61,6 +61,7 @@ npm start
 function App(){
 
   let post = '강남 우동 맛집';
+
   return (
     <div className="App">
       <div className="black-nav">
