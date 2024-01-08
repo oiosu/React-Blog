@@ -51,4 +51,30 @@ npm start
 
 ### Chapter 3. 레이아웃 만들 때 쓰는 JSX 문법 3개
 
+##### (1) html에 class 넣을때는 `className`
+
+* JSX는 일종의 자바스크립트라서 자바스크립트에서 사용하는 예약어는 class라는 키워드를 사용하면 안된다
+
+##### (2) 변수를 html에 넣을때는 {중괄호}
+
+* 변수 : 변수는 길고 복잡한 자료를 잠깐 한 단어에 저장해서 사용할 수 있는 문법이다.
+
+```javascript
+function App(){
+
+  let post = '강남 우동 맛집';
+  return (
+    <div className="App">
+      <div className="black-nav">
+        <div>블로그임</div>
+        <div>{ post }</div>
+      </div>
+    </div>
+  )
+}
+```
+> 중괄호 안에 데이터 바인딩하고 싶은 변수명만 담으면 된다.
+>
+> 변수에 있던 것을 html에 넣는 작업을 = `데이터 바인딩` 이라고 한다.
+
 
